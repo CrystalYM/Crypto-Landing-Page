@@ -19,6 +19,9 @@ const Hero = () => {
 					<div className='img-container'>
 						<img src={Crypto} alt='img-header' />
 					</div>
+					<button>
+				<p>heello</p>
+					</button>
 				</div>
 			</div>
 		</div>

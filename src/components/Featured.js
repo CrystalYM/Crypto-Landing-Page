@@ -20,7 +20,7 @@ const Featured = () => {
 			});
 	}, []);
 
-	// console.log(data);
+	console.log(data);
 
 	if (!data) return null;
 
