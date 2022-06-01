@@ -1,3 +1,4 @@
+import { Fragment } from 'react';
 import Featured from './components/Featured';
 import Footer from './components/Footer';
 import Hero from './components/Hero';
@@ -6,13 +7,13 @@ import Signup from './components/Signup';
 
 function App() {
 	return (
-		<div>
+		<Fragment>
 			<Navbar />
 			<Hero />
 			<Featured />
 			<Signup />
 			<Footer />
-		</div>
+		</Fragment>
 	);
 }
 
